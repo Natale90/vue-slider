@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.container{
+  width: 75%;
+  margin: 200px auto;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.slider{
+  position: relative;
+}
+
+.active{
+  display: block;
+}
+
+img{
+  width: 100%;
+  min-height: 300px;
+  display: none;
+  border-radius: 10px;
+}
+
+.fa-circle{
+  margin: 10px;
+  border-radius: 100%;
+}
+
+.bg-black{
+  background-color: #000;
+}
+
+.fas{
+  position: absolute;
+  margin: 10px 5px;
+  font-size: 40px;
+  transform: translate(0, -50%);
+}
+
+.fa-chevron-circle-left{
+  top: 50%;
+  right: 100%;
+
+}
+
+.fa-chevron-circle-right{
+  bottom: calc(50% - 40px);
+  left: 100%;
+
+}
